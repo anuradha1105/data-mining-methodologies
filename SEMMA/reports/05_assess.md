@@ -6,13 +6,8 @@ The Assess phase evaluates the trained models' performance, robustness, and prac
 ## Evaluation Summary
 The Random Forest model performed best on the test data:
 
-| Metric | Value |
-|---------|-------|
-| Accuracy | [insert value] |
-| Precision | [insert value] |
-| Recall | [insert value] |
-| F1 Score | [insert value] |
-| ROC AUC | [insert value] |
+<img width="512" height="197" alt="image" src="https://github.com/user-attachments/assets/8fc41316-abcf-4250-b8d1-4f0b1fc0ba3c" />
+
 
 ## Interpretation
 - The model demonstrates strong ability to distinguish at-risk students from successful ones.
@@ -23,6 +18,8 @@ The Random Forest model performed best on the test data:
   4. Absences
   5. Study time
 
+<img width="834" height="473" alt="image" src="https://github.com/user-attachments/assets/ec8a08da-4f84-4779-9369-0df28e94dee6" />
+
 These align with academic intuition — past performance and attendance directly influence risk.
 
 ## Confusion Matrix
@@ -31,7 +28,8 @@ These align with academic intuition — past performance and attendance directly
 - **False Positives (FP):** misclassified safe students (acceptable if interventions are low-cost).  
 
 ## ROC Curve
-AUC = [insert ROC AUC value]  
+<img width="574" height="201" alt="image" src="https://github.com/user-attachments/assets/0ae87005-a6db-4d22-89e6-2368417bbe2d" />
+ 
 The ROC curve indicates strong model discrimination power.
 
 ## Validation & Reliability
