@@ -16,13 +16,8 @@ We used the following metrics for evaluation:
 - F1 Score
 - ROC AUC
 
-| Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
-|--------|-----------|------------|----------|-----------|-----------|
-| Logistic Regression | [val] | [val] | [val] | [val] | [val] |
-| Decision Tree | [val] | [val] | [val] | [val] | [val] |
-| Random Forest | [val] | [val] | [val] | [val] | [val] |
+<img width="589" height="137" alt="image" src="https://github.com/user-attachments/assets/eea3baa3-90c2-4a94-a5c6-5d5d99c16cdd" />
 
-*(Fill the values from `results_df`.)*
 
 ## Key Observations
 - The **Random Forest** model achieved the highest F1 and ROC AUC, indicating strong overall performance.
