@@ -160,8 +160,13 @@ Evaluate the model against both statistical metrics and business success criteri
 
 ### 📈 Performance Summary
 RMSE: 57710.18658749013
+
 MAE : 39708.05570454543
+
 MAPE (%): 3.85220848416797
+
+<img width="652" height="103" alt="image" src="https://github.com/user-attachments/assets/1cf04b42-0225-4aa9-926d-4b01433b6a33" />
+
 
 ### 📉 Key Findings
 - Model meets accuracy goals (MAPE < 15%)  
