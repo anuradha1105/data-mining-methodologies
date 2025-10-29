@@ -121,6 +121,7 @@ After resampling : Counter({0: 226602, 1: 226602})
 
 Balanced, feature-rich dataset with robust scaling and augmentation.
 
+
 **🤖 Phase 4 — Data Mining
 🎯 Objective**
 
@@ -152,7 +153,11 @@ for name, model in models.items():
     print(f"✅ {name} trained successfully.")
 
 ```
+
+
 📈 Evaluation Metrics
+
+
 <img width="673" height="151" alt="image" src="https://github.com/user-attachments/assets/13b1fffe-a36b-4e0d-a1a9-b91fe5a8b4d7" />
 
 
@@ -184,14 +189,18 @@ Translate model outcomes into business, behavioral, and ethical insights.
 
 
 **📊 Visual Interpretations**
+
 - SHAP Summary Plot — feature importance
 - Precision–Recall Curve — fraud threshold tuning
+- 
   <img width="597" height="444" alt="image" src="https://github.com/user-attachments/assets/3e45ff00-d993-4ed9-90db-884e37e6aa06" />
 
 - Confusion Matrix — balanced accuracy
+- 
 - <img width="587" height="479" alt="image" src="https://github.com/user-attachments/assets/2dc17d9c-13d1-4d07-b951-29e775ab12ef" />
 
 - PDPs — show impact of top features on predictions
+- 
 - <img width="721" height="473" alt="image" src="https://github.com/user-attachments/assets/470a5188-afd6-4dd6-9883-e2ad8066eac6" />
 
 
