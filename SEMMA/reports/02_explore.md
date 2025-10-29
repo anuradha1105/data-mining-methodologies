@@ -29,6 +29,23 @@ The Explore phase focuses on understanding the data distribution, identifying ou
 - Figure 1: Histogram of numeric features.
 - Figure 2: Boxplots of absences/studytime vs at_risk.
 - Figure 3: Correlation heatmap.
+  
+<img width="867" height="507" alt="image" src="https://github.com/user-attachments/assets/c170b46f-0915-4bdc-b6ee-f62f97cd1002" />
+
+<img width="656" height="455" alt="image" src="https://github.com/user-attachments/assets/df63afa8-54bd-4c26-b7af-bfbb51eca239" />
+
+<img width="882" height="578" alt="image" src="https://github.com/user-attachments/assets/9df5665c-49a3-4d97-9387-cfe61687bf2d" />
+
+<img width="612" height="454" alt="image" src="https://github.com/user-attachments/assets/a6f34756-20d8-4cbc-b06a-9b110d36c860" />
+
+<img width="723" height="537" alt="image" src="https://github.com/user-attachments/assets/89ba17a9-4604-41bb-a45d-d52a1c31d559" />
+
+<img width="511" height="199" alt="image" src="https://github.com/user-attachments/assets/b9da6cd3-b3b5-42af-940d-3b3ce23cab80" />
+
+
+
+
+
 
 ## Risks & Limitations
 - Some variables (e.g., studytime) are self-reported and may be inaccurate.
