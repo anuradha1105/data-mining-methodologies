@@ -35,12 +35,8 @@ The goal of this analysis is to identify students at risk of poor final performa
 
 Descriptive statistics confirmed that the sample is demographically consistent with the overall population:
 
-| Variable | Population Mean | Sample Mean | Deviation |
-|-----------|------------------|--------------|------------|
-| Age | — | — | — |
-| Study Time | — | — | — |
-| Absences | — | — | — |
-| G1 | — | — | — |
+<img width="537" height="214" alt="image" src="https://github.com/user-attachments/assets/54243a84-8457-4e01-9810-9ba0c3122113" />
+
 
 This validation confirms that the sampled dataset maintains fairness and generalizability across subgroups.
 
@@ -166,8 +162,11 @@ Each engineered variable was tested for correlation and variance to ensure uniqu
 
 | Dataset Split | Samples | Features | Notes |
 |----------------|----------|-----------|-------|
-| Training Set | [X_train.shape[0]] | [X_train.shape[1]] | Includes scaled, encoded, and engineered features. |
-| Test Set | [X_test.shape[0]] | [X_test.shape[1]] | Transformation pipeline applied consistently. |
+|X_train shape: (316, 7)
+X_test shape: (79, 7)
+At risk % in train: 32.91139240506329
+At risk % in test : 32.91139240506329
+
 
 ### Quality and Compliance Checks
 - Verified that all transformations are reversible and reproducible through serialized preprocessing pipelines (joblib or pickle).  
@@ -213,11 +212,8 @@ All models were trained using an 80/20 stratified train-test split to preserve t
 
 ### Model Comparison Results
 
-| Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
-|--------|-----------|------------|----------|-----------|----------|
-| Logistic Regression | [val] | [val] | [val] | [val] | [val] |
-| Decision Tree | [val] | [val] | [val] | [val] | [val] |
-| Random Forest | [val] | [val] | [val] | [val] | [val] |
+<img width="587" height="209" alt="image" src="https://github.com/user-attachments/assets/c8ada583-295b-48d7-aacf-7b473298459d" />
+
 
 The Random Forest Classifier consistently achieved the highest F1 Score and ROC AUC, suggesting the best balance between sensitivity and specificity. Logistic Regression provided interpretability but underperformed slightly in recall, while the Decision Tree exhibited early signs of overfitting.
 
