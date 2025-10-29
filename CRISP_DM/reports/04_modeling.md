@@ -57,13 +57,10 @@ Below are the error metrics we computed on the validation period:
 - **MAE** (Mean Absolute Error): average absolute dollars off
 - **MAPE** (Mean Absolute Percentage Error): % error relative to true sales; easy for business users to interpret
 
-| Model               | RMSE        | MAE         | MAPE (%)         |
-|---------------------|-------------|-------------|------------------|
-| Linear Regression   | [fill RMSE] | [fill MAE]  | [fill MAPE %]    |
-| Random Forest       | [fill RMSE] | [fill MAE]  | [fill MAPE %]    |
-| XGBoost             | [fill RMSE] | [fill MAE]  | [fill MAPE %]    |
+<img width="465" height="156" alt="image" src="https://github.com/user-attachments/assets/cd6349ba-0316-430a-96a0-2db1fa172fd4" />
 
-(Replace the [fill ...] values with what `results` printed in the notebook.)
+
+
 
 ## 4.6 Interpretation
 - Tree-based models (Random Forest, XGBoost) clearly beat Linear Regression, which means:
