@@ -27,6 +27,17 @@ An interactive time-series chart was created using Plotly:
 - **Red line:** Predicted weekly sales  
 - **Insight:** Strong alignment between actual and forecasted values; deviations visible near major holidays.
 
+  <img width="946" height="396" alt="image" src="https://github.com/user-attachments/assets/3a852632-59ac-4b31-ac37-e6763eefdd9f" />
+
+
+  <img width="555" height="549" alt="image" src="https://github.com/user-attachments/assets/37d05728-62c1-413f-9b79-6d95224255f6" />
+
+<img width="1109" height="389" alt="image" src="https://github.com/user-attachments/assets/33e196b8-433a-4a85-ae1e-a20ba07815b8" />
+
+  <img width="1238" height="509" alt="image" src="https://github.com/user-attachments/assets/82a042b3-4034-462d-9336-34ea2dd5c529" />
+
+
+
 ---
 
 ## 6.4 Model Maintenance Plan
