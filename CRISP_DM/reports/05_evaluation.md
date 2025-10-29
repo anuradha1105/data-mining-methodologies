@@ -4,15 +4,11 @@
 To evaluate how well the selected model meets the business objectives and whether it is ready for deployment.
 
 ## 5.2 Summary of Results
-| Model | RMSE | MAE | MAPE (%) |
-|:--|--:|--:|--:|
-| Linear Regression | 27 000 | 18 500 | 16.8 |
-| Random Forest | 21 000 | 15 000 | 12.4 |
-| XGBoost | 19 500 | 14 200 | 11.6 |
 
-*Replace these values with your actual metrics.*
+<img width="465" height="156" alt="image" src="https://github.com/user-attachments/assets/3a95f6ca-4a63-4762-b965-418a486d351d" />
 
-**Best Model:** XGBoost  → lowest MAPE ≈ 11.6 %
+
+
 
 ## 5.3 Business Success Criteria Check
 | Criterion | Target | Achieved | Status |
