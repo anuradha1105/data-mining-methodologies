@@ -11,11 +11,8 @@ The Data Mining phase applies machine learning algorithms to the transformed dat
 Each model was trained on the balanced dataset created with SMOTE.
 
 ## 2. Evaluation Results
-| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
-|--------|-----------|------------|----------|-----------|-----------|
-| Logistic Regression | [VALUE] | [VALUE] | [VALUE] | [VALUE] | [VALUE] |
-| Random Forest | [VALUE] | [VALUE] | [VALUE] | [VALUE] | [VALUE] |
-| XGBoost | [VALUE] | [VALUE] | [VALUE] | [VALUE] | [VALUE] |
+<img width="586" height="147" alt="image" src="https://github.com/user-attachments/assets/dce7ca81-5261-46c2-a85e-56b5e420c604" />
+
 
 ## 3. Observations
 - Random Forest and XGBoost achieve superior results, both exceeding 99.8% ROC-AUC.
@@ -24,7 +21,10 @@ Each model was trained on the balanced dataset created with SMOTE.
 
 ## 4. Visualization Insights
 - **Confusion Matrix** confirms minimal false negatives.  
-- **ROC Curves** for all models show near-perfect separability (AUC > 0.99).  
+- **ROC Curves** for all models show near-perfect separability (AUC > 0.99).
+
+  <img width="587" height="492" alt="image" src="https://github.com/user-attachments/assets/42275587-0d52-4451-9dc0-efcdbcf00753" />
+
 
 ## 5. Model Selection
 The **Random Forest** model was chosen for deployment due to:
