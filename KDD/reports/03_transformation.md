@@ -5,8 +5,8 @@ The Transformation phase prepares the preprocessed dataset for data mining by re
 
 ## 1. Resampling
 - Method: SMOTE (Synthetic Minority Over-Sampling Technique)  
-- Original distribution: [insert Counter(y_train)]  
-- Resampled distribution: [insert Counter(y_train_res)]  
+Before resampling: Counter({0: 226602, 1: 378})
+After resampling : Counter({0: 226602, 1: 226602})
 
 SMOTE generated synthetic fraud samples to balance the dataset. This avoids biasing models toward the majority class.
 
@@ -27,6 +27,9 @@ These features may capture nonlinear transaction patterns.
 - `X_train_res`, `y_train_res` → balanced training set  
 - `X_test`, `y_test` → hold-out test set  
 - Stored in `KDD/outputs/kdd_transformed.pkl`
+
+  <img width="599" height="467" alt="image" src="https://github.com/user-attachments/assets/1ecd9900-4857-4a96-bc89-6c0cd4a84775" />
+
 
 ## Next Step
 Proceed to **KDD Phase 4 – Data Mining**, where we’ll train and evaluate classification models to detect fraudulent transactions.
