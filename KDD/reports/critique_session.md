@@ -79,10 +79,8 @@ In fraud detection, this step is critical — it shapes the statistical geometry
 ### 1. Resampling and Class Balancing  
 The dataset exhibited extreme imbalance (~\[FRAUD_PCT\]% fraud). To mitigate bias, the Synthetic Minority Over-Sampling Technique (SMOTE) was applied to the training set.
 
-| Distribution  | Class 0 (Legit)            | Class 1 (Fraud)          |
-|---------------|----------------------------|--------------------------|
-| Before SMOTE  | \[insert Counter(y_train)\] | —                        |
-| After SMOTE   | \[insert Counter(y_train_res)\] | —                    |
+Before resampling: Counter({0: 226602, 1: 378})
+After resampling : Counter({0: 226602, 1: 226602})
 
 SMOTE interpolates new minority samples along feature-space boundaries of the fraud class, enabling the classifier to learn more generalized decision boundaries.  
 Parameters such as `k_neighbors=5` and fixed `random_state` were recorded to ensure reproducibility.  
