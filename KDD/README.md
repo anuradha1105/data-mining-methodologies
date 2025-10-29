@@ -85,3 +85,19 @@ y = df['Class']
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, stratify=y, random_state=42
 )
+'''
+
+### Risks and Mitigation
+| Risk | Impact | Mitigation |
+|------|---------|------------|
+| Data leakage | High | Fit scalers on training set only |
+| Outliers in Amount | Medium | Apply log transform |
+| Imbalanced split | Low | Use stratified sampling |
+
+### Outcome Clean, scaled dataset ready for transformation and modeling.
+
+## 🔄 Phase 3 — Transformation
+### Objective Enhance model learnability by engineering features, balancing classes, and ensuring scale consistency.
+- Applied SMOTE for minority class resampling.
+- Created derived features: `Amount_log`, `Amount_square`.
+- Verified integrity via nearest-neighbor distance plots.
