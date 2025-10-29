@@ -52,11 +52,8 @@ Developed as part of **Data Mining coursework at San José State University (MSS
 
 ## 📊 Results Summary  
 
-| Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
-|--------|-----------|------------|----------|-----------|-----------|
-| Logistic Regression | 0.81 | 0.69 | 0.60 | 0.64 | 0.78 |
-| Decision Tree | 0.85 | 0.73 | 0.68 | 0.70 | 0.82 |
-| **Random Forest** | **0.89** | **0.81** | **0.77** | **0.79** | **0.90** |
+<img width="624" height="141" alt="image" src="https://github.com/user-attachments/assets/26684c1f-603c-4295-8585-db4fdc899a20" />
+
 
 **Top Predictors:**  
 - G1 (1st period grade)  
@@ -65,7 +62,6 @@ Developed as part of **Data Mining coursework at San José State University (MSS
 - Absences  
 - Study time  
 
-✅ Random Forest outperformed others with the highest F1 and AUC scores, making it the optimal choice for identifying at-risk students.
 
 ---
 
@@ -79,7 +75,18 @@ Developed as part of **Data Mining coursework at San José State University (MSS
 | 🌲 Feature Importance | Random Forest feature ranking |
 | 🧩 Confusion Matrix | Model classification outcomes |
 
-*(Include screenshots from your Colab notebook in this section before committing)*
+<img width="575" height="453" alt="image" src="https://github.com/user-attachments/assets/3b0044d0-8104-4a3a-94e0-b661c897ac93" />
+
+
+<img width="835" height="470" alt="image" src="https://github.com/user-attachments/assets/437d77f2-7423-49d0-b7fb-1d83f9102065" />
+
+
+<img width="624" height="458" alt="image" src="https://github.com/user-attachments/assets/ce0f78cf-782e-4c65-9245-cb65d384d197" />
+
+
+<img width="622" height="471" alt="image" src="https://github.com/user-attachments/assets/6c8b5ede-1441-4ea9-b971-4492f12c32d7" />
+
+
 
 ---
 
@@ -97,45 +104,12 @@ Developed as part of **Data Mining coursework at San José State University (MSS
 - Automate retraining every term using Airflow or Prefect.  
 - Expand to multi-school datasets for higher generalizability.  
 
----
-
-## 🧾 Repository Structure  
-
-
-
 
 ---
 
 ## 📰 Medium Article  
 
 📘 **Full Walkthrough:**  
-🔗 [Predicting Student Performance Using the SEMMA Methodology](https://medium.com/)  
-*(Replace with your published Medium link)*  
+https://medium.com/@anuradhasrivastav25/predicting-student-performance-using-the-semma-methodology-5f4c8da59d22  
 
----
-
-## 🤝 Author  
-
-**[Your Name]**  
-🎓 M.S. Software Engineering, San José State University  
-📧 [your.email@sjsu.edu]  
-🌐 [LinkedIn Profile or Portfolio Link]  
-
----
-
-## 🪪 License  
-This project is released under the **MIT License**.  
-You are free to use, modify, and distribute with attribution.
-
----
-
-## ⭐ Acknowledgments  
-Special thanks to **Dr. Prateek Sharma** and the **CMPE-272 / Data Mining** teaching team for guidance.  
-Also to **SAS Institute** for the SEMMA methodology framework.  
-
----
-
-### 🏁 Summary  
-
-> **SEMMA bridges statistics and machine learning through a disciplined, evidence-based approach to model building.**  
-> This project demonstrates how structured methodology + ethical AI can turn educational data into actionable insights.  
+--- 
