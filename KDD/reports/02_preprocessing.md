@@ -33,10 +33,10 @@ This ensures that downstream models (e.g., Logistic Regression) are not dominate
 ## 4. Train/Test Split
 We created an 80/20 stratified split to preserve fraud ratio and avoid information leakage.
 
-- Training set: [TRAIN_SHAPE] samples  
-- Test set: [TEST_SHAPE] samples  
-- Fraud rate in train: ~[TRAIN_FRAUD_PCT]%  
-- Fraud rate in test: ~[TEST_FRAUD_PCT]%  
+Train shape: (226980, 30)
+Test shape: (56746, 30)
+Fraud % train: 0.16653449643140364
+Fraud % test : 0.16741268107003138
 
 This split locks in an unbiased test set for later evaluation.
 
