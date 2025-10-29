@@ -33,6 +33,8 @@ Top features by importance (Random Forest / XGBoost):
 4. WeekOfYear – captures annual seasonality 📅  
 5. Fuel_Price / CPI – economic context 💲  
 
+<img width="825" height="502" alt="image" src="https://github.com/user-attachments/assets/a3c97301-de71-4e10-b62b-fa92b39e3719" />
+
 ## 5.6 Risks and Limitations
 - May underpredict extreme events (e.g., Black Friday).  
 - Macroeconomic shock → model drift.  
