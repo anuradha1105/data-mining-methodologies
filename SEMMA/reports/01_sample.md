@@ -8,7 +8,6 @@ We define "at risk" as a student whose final grade (`G3`) is below 10 out of 20.
 ## Data Source
 We used the Student Performance dataset (UCI / Kaggle). It includes demographics, study time, absences, past grades, and final grades.
 
-**Dataset size:** [REPLACE WITH df.shape] rows  
 **Columns used for modeling:**
 - age
 - sex
